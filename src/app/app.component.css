@@ -1,6 +1,9 @@
+h1{
+  margin-bottom: 0;
+}
+
 .a {
   width: 0;
-  /*border-top: 30px solid #C66;*/
   border-bottom: 30px solid #6C6;
   border-left: 52px solid transparent;
   border-right: 52px solid transparent;
@@ -24,4 +27,23 @@
   float: left;
   margin-left: 3px;
   margin-bottom: -26px;
+}
+
+.row1, .row7 {
+  clear: left;
+  margin-left: 159px;
+}
+
+.row2, .row6 {
+  clear: left;
+  margin-left: 106px;
+}
+
+.row3, .row5 {
+  clear: left;
+  margin-left: 53px;
+}
+
+.row4 {
+  clear: left;
 }
