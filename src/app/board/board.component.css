@@ -1,3 +1,11 @@
+h1{
+  margin-bottom: 0;
+}
+
+button {
+  background-color: cornsilk;
+}
+
 .a {
   width: 0;
   border-bottom: 30px solid #6C6;

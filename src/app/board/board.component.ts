@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./board.component.css']
 })
 export class BoardComponent implements OnInit {
+  selectedHex!: string;
 
-  constructor() { }
+  constructor() {
+    this.selectedHex = 'Select a hex!';
+  }
 
   ngOnInit(): void {
+  }
+
+  onClick(hex: string): void {
+    this.selectedHex = hex;
   }
 
 }
