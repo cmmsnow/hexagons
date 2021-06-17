@@ -1,0 +1,12 @@
+#hex {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+
+#hex:hover {
+  font-style: italic;
+}

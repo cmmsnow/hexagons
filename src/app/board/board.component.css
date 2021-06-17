@@ -3,7 +3,17 @@ h1{
 }
 
 button {
-  background-color: cornsilk;
+  background-color: indianred;
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 5px 5px black;
+}
+button:hover{
+  font-style: italic;
+}
+
+button:active {
+  text-decoration: underline;
 }
 
 .a {
@@ -54,4 +64,17 @@ button {
 
 .row4 {
   clear: left;
+}
+
+#practice {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+
+#practice:hover {
+  font-style: italic;
 }
